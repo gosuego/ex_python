@@ -1,0 +1,6 @@
+
+
+days = ("Mon", "Thu", "wed")
+
+for potato in days:
+print(potato)
