@@ -1,6 +1,9 @@
 
 
-days = ("Mon", "Thu", "wed")
+days = ("Mon", "Thu", "wed", "thu", "fri")
 
-for potato in days:
-print(potato)
+for day in days:
+    if day is "wed":
+        break
+    else:
+        print(days)
