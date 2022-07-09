@@ -1,9 +1,4 @@
 
+import math
 
-days = ("Mon", "Thu", "wed", "thu", "fri")
-
-for day in days:
-    if day is "wed":
-        break
-    else:
-        print(days)
+print(math.ceil(1.2))
