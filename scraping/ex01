@@ -1,0 +1,9 @@
+import requests
+
+indeed_resul = requests.get(
+    "http://yundata.cafe24.com/bbs/board.php?bo_table=sub01_03&page=139")
+
+print(indeed_result)
+
+# beautifulsuop
+# 페이지추출헤서 매헌기념관 자료실 도서자료를 스크랩핑해보세용
