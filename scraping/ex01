@@ -1,13 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 
-INDEED_URL = "http://yundata.cafe24.com/bbs/board.php?bo_table=sub01_03&page=139"
-indeed_result = requests.get(
+URL = "http://yundata.cafe24.com/bbs/board.php?bo_table=sub01_03&page=139"
+yundata_result = requests.get(
     "http://yundata.cafe24.com/bbs/board.php?bo_table=sub01_03&page=139")
 
-indeed_soup = BeautifulSoup(indeed_result.text, "html.parser")
+yundata_soup = BeautifulSoup(yundata_result.text, "html.parser")
 
-pagination = indeed_soup.find("span", {"class": "sound_only"})
+pagination = yundata_soup.find("span", {"class": "sound_only"})
 
 links = pagination.find_all('a')
 pages = []
