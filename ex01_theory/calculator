@@ -1,0 +1,10 @@
+def plus(a, b):
+    return a+b
+
+
+def mius(a, b):
+    return a-b
+
+
+def xsum(a, b):
+    return a*b
