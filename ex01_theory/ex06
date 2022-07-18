@@ -1,0 +1,11 @@
+x = 75
+
+if x >= 90:
+print("학점 : A")
+
+elif 80 <= x < 90:
+    print("학점 : B")
+elif 70 <= x < 80:
+    print("학점:C")
+    else:
+        print("학점:D")
